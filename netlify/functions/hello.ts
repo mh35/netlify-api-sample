@@ -28,7 +28,8 @@ export const handler: Handler = async (event, context) => {
       statusCode: 200,
       body: JSON.stringify(rData)
     };
-  } catch {
+  } catch (e) {
+    console.error(e);
     return {
       statusCode: 500,
       body: JSON.stringify({result: "API failed"})
