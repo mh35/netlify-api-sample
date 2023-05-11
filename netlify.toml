@@ -1,0 +1,12 @@
+# Doc: https://docs.netlify.com/configure-builds/file-based-configuration/
+# ビルド設定
+[build]
+  # 公開ディレクトリ
+  publish = "public"
+  # 実行コマンド(target: 'static')
+  # command = "yarn generate"
+
+[functions]
+  # netlify functionsコマンドが参照するディレクトリパスを指定(default: YOUR_BASE_DIRECTORY/netlify/functions)
+  # [build]のbaseディレクトリが指定されている場合はそこからの相対パスとなる(default: base = "/")
+  directory = "netlify/functions"

@@ -1,0 +1,12 @@
+{
+  "name": "netlify-sample",
+  "version": "1.0.0",
+  "description": "Netlify sample application",
+  "repository": "git@github.com:mh35/netlify-api-sample.git",
+  "author": "MH35 <mh35jp@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "netlify-cli": "^15.0.2"
+  }
+}
